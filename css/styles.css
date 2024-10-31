@@ -1,0 +1,23 @@
+/* 
+    Document   : styles
+    Created on : 08-may-2013, 16:13:08
+    Author     : maria
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.help-text{
+    margin:0;
+    font-size: 14px;
+}
+#adminmenu #toplevel_page_rcscontentsuite div.wp-menu-image {
+	background: transparent url('../img/icon.png') no-repeat scroll center center;
+}
+#adminmenu #toplevel_page_rcscontentsuite:hover div.wp-menu-image,
+#adminmenu #toplevel_page_rcscontentsuite.wp-has-current-submenu div.wp-menu-image,
+#adminmenu #toplevel_page_rcscontentsuite.current div.wp-menu-image {
+	background: transparent url('../img/icon_active.png') no-repeat scroll center center;
+}
+
+#icon-rcs-general{
+    background: transparent url('../img/wp_rum_icon32.png') no-repeat center center;
+}
